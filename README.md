@@ -100,11 +100,16 @@ col = [**Basic stats**
 * (4) 가장 결과가 좋은 것? K-means++
 2)  클러스터 분석
 * 10개의 클러스터로 나눈 뒤, 각각 센터계열과 슈터계열로 나누어 분석
+![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/clustering_10.png?raw=true)
 
 # 3. Apply basketball analysis by clustering data
 1) case 1 : 우승팀 조합에 대한 변화 찾기
 2) case 2 : 농구 흐름에 따른 연대별 포지션 변화 추세 분석
 * (1) 비슷한 유형의 포지션 비교(센터계열, 슈터계열 나눠서 비교)
+--Big
+![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/clustering_big.png?raw=true)
+--Shooter
+![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/clustering_shooter.png?raw=true)
 * (2) 연대별로 끊어서 비교
 
 # 4. Conclusion & further research
