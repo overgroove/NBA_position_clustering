@@ -93,9 +93,9 @@ col = [**Basic stats**
 
 
 # 2. Model setup
-1) Classfication 모델 선택
-* (1) kmeans(kmeans++)
-* (2) heirarchical clustering
+1) Classification 모델 선택
+* (1) Kmeans(Kmeans++)
+* (2) hierarchical clustering
 * (3) EM clustering
 * (4) 가장 결과가 좋은 것? kmeans++
 2)  클러스터 분석
@@ -104,7 +104,7 @@ col = [**Basic stats**
 1) case 1 : ?
 2) case 2 : 농구 흐름에 따른  최근 포지션 수요의 변화
 
-# 4. Conclusion & further reserch
+# 4. Conclusion & further research
 # 5. References
 
 
