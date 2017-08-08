@@ -1,30 +1,3 @@
-# NBA player Cluster analysis
-
-# Contents
-
-# 1. Introduction
-1) 농구의 포지션 이란? 스탯?
-- 포지션
-- 스탯
-2) Motivation
-3) 데이터 수집 및 전처리
-
-# 2. Model setup
-1) Classfication 모델 선택
-* (1) kmeans(kmeans++)
-* (2) heirarchical clustering
-* (3) EM clustering
-* (4) 가장 결과가 좋은 것? kmeans++
-2)  클러스터 분석
-
-# 3. Apply basketball analysis by clustering data
-1) case 1 : ?
-2) case 2 : 농구 흐름에 따른  최근 포지션 수요의 변화
-
-# 4. Conclusion & further reserch
-# 5. References
-
-
 # I. Introduction
 
 ## 1) 농구의 포지션 이란? 스탯?
