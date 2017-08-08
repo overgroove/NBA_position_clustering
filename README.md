@@ -102,7 +102,7 @@ col = [**Basic stats**
 
 # 3. Apply basketball analysis by clustering data
 1) case 1 : ?
-2) case 2 : 농구 흐름에 따른  최근 포지션 수요의 변화
+2) case 2 : 농구 흐름에 따른 연대별 포지션 변화 추세 분석
 
 # 4. Conclusion & further research
 # 5. References
