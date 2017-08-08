@@ -16,7 +16,7 @@
 
 - 스탯
 
-![position](http://cfile24.uf.tistory.com/image/236ADE335980760C33F998)<br />
+![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/tiled_image.jpg?raw=true)<br />
 
 - 왼쪽 위부터 **리바운드**, **3점슛**, **블로킹**, **스틸**
 
