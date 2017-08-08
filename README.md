@@ -94,10 +94,10 @@ col = [**Basic stats**
 
 # 2. Model setup
 1) Classification 모델 선택
-* (1) Kmeans(Kmeans++)
-* (2) hierarchical clustering
-* (3) EM clustering
-* (4) 가장 결과가 좋은 것? kmeans++
+* (1) K-means(K-means++)
+* (2) Hierarchical Clustering
+* (3) EM Clustering
+* (4) 가장 결과가 좋은 것? K-means++
 2)  클러스터 분석
 
 # 3. Apply basketball analysis by clustering data
