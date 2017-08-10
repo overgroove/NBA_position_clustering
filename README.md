@@ -98,16 +98,37 @@ col = [**Basic stats**
 * (2) Hierarchical Clustering
 * (3) EM Clustering
 * (4) 가장 결과가 좋은 것? K-means++
-2)  클러스터 분석 ( 새로 해야함 )
-![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/clustering_10.png?raw=true)
+2)  클러스터 분석
+![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/cluster_by_stats_all.png?raw=true)
+클러스터에 높은 값을 가진 feature 순위를 매겨 중요속성을 골라내었고, 선수의 플레이스타일을 정의하여 클러스터에 새롭게 라벨링을 해주었다.
+* Classic big : 골밑에서의 **득점, 공격 및 수비 리바운드**와 **블록**에 능한 선수 #0
+* Aggressive big : **공격 리바운드와 블록, 득점력**이 강한 선수  # 7
+* Non-scoring Big : **리바운드와 블록에 강점**이 있지만 득점력이 약한 선수  #8
+* Midrange Stopper : **필드골 득점력과 리바운드** 및 **블록샷 등 수비**에 강점이 있는 선수 #3
+* Balanced wing scorer : **측면 공격, 3점슛, 패스를 받아 넣는 필드골**에 강점이 있는 선수 #6
+* Ball Handler : 돌파 등을 통해서 **본인이 만들어서 득점을 하며 2차 어시스트**에 강점이 있는 선수 #4
+* Long shooter : **3점 슛 득점력이 가장 뛰어난** 선수 #1
+* All-Round Player : **득점, 어시스트, 리바운드, 3점 슛 성공률**등 여러 스탯에 강점이 있는 선수 #5
+* Defensive passer : **어시스트와 스틸에 강점**이 있고 **수비적**인 성향이 강한 선수 #2
+* Commander : **어시스트를 주력**으로 하는 **득점력**을 겸비한 **플레이메이커** #9
 
 # 3. Apply basketball analysis by clustering data
-1) case 1 : 우승팀 조합에 대한 변화 찾기 ( 이거 없어짐 ) 
-2) case 2 : 농구 흐름에 따른 연대별 포지션 변화 추세 분석
-* (1) 비슷한 유형의 포지션 비교(포지션 비교도 없어짐)
---Big
+
+농구 흐름에 따른 1998-2017 포지션 변화 추세 분석  
+-- 전체 기간, 전체 클러스터
+![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/cluster_by_stats_all.png?raw=true)  
+#### 1. Balanced wing scorer , Long shooter는 증가의 추세를 가지며  
+#### 2. Midrange stopper는 감소의 추세를 가진다.
+#### 3. 하지만 나머지 포지션 같은 경우에는 시즌별 편차가 있어서 시대별 흐름에 따라 이를 더 자세히 검토하도록 하겠다.
+- 1990 ~ 1999 : 센터의 시대(4대 센터)
+- 2000 ~ 2009 : 슈팅가드의 전성시대
+- 2010 ~ 2017 : 스몰볼 시대
+
+(출처 : http://www.rookie.co.kr/news/articleView.html?idxno=6126)
+
+--
 ![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/clustering_big.png?raw=true)
---Shooter
+--
 ![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/clustering_shooter.png?raw=true)
 * (2) 연대별로 끊어서 비교
 
