@@ -126,21 +126,26 @@ col = [**Basic stats**
 
 (출처 : http://www.rookie.co.kr/news/articleView.html?idxno=6126)
 
+
 -- 1996 ~ 2017 추세
 ![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/regression_line_1996_2017.png?raw=true)  
  #### 위에서 확인한 바와 같이,  Balanced wing scorer , Long shooter,  Midrange stopper는 전체 연도별 흐름에서 일정한 추세를 가지고 있는 것을 알 수 있었다. 이는 점점 90년대에는 센터 위주의 농구 였지만 점점 가드 위주의 농구로 전환됨에 따라 이런 추세를 띈 것으로 보인다.
+
 
 -- 1999년 이전 추세
 ![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/regression_line_1996_1998.png?raw=true)
 #### 센터의 시대가 끝나감에 따라서  Aggressive big의 감소추세가 나타나며, Defensive passer가 증가추세가 나타난다.
 
+
 -- 1999 ~ 2009년 추세
 ![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/regression_line_1999_2008.png?raw=true)
 #### 슈팅가드의 시대가 시작됨에 따라, shooter와 관련된 포지션의 증가를 확인할 수 있다.
 
+
 -- 2010년 이후 추세
 ![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/regression_line_2009_2017.png?raw=true)
 #### 스몰볼의 흐름에 따라서  Long shooter, Ball Handler, Balancer wing scorer의 증가를 확인 할 수 있었다.
+
 
 # 4. Conclusion & further research
 ### Conclusion
